@@ -238,22 +238,7 @@ export const BPDetectionModal = ({ isOpen, onClose, onResult }) => {
                 placeholder="Are you a Smoker?"
                 options={["No", "Yes"]}
               />
-              {/* <FormSelect
-                label="Alcohol Consumption"
-                name="alcohol"
-                value={formData.alcohol}
-                onChange={(value) => handleSelectChange("alcohol", value)}
-                placeholder="Do you consume Alcohol?"
-                options={["No", "Yes"]}
-              /> */}
-              {/* <FormInput
-                label="Previous Conditions"
-                name="prev_conditions"
-                type="text"
-                placeholder="e.g., Hypertension"
-                value={formData.prev_conditions}
-                onChange={handleFormChange}
-              /> */}
+           
               <FormInput
                 label="Height (cm)"
                 name="height"
